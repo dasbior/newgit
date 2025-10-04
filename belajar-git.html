@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Git</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">Git</h1>
+    <p>Git adalah </p>
+
+    <h3>Cara Instal Git</h3>
+    <h4>Pastikan </h4>
+
+    <h3>Praktek workflow</h3>
+    <p><b class="bold">Workflow </b> adalah mengerjakan proyek bersama dengan team</p>
+    <h4>Step by step</h4>
+    <ol type="">
+        <li>Buka Repository Company</li>
+        <li class="fork">Pilih Fork</li>
+    <div class="fork-img">
+        <img src="image/fork.png" title="contoh_fork" alt="pilih fork">
+    </div>
+        <li>Choose Fork Create New Fork</li>
+    <div class="origin">
+        <img src="image/origin.png" alt="origin">
+    </div>
+        <p>Setelah membuat Fork </p>
+        <li>lakukan clone dengan copy "klik code"</li>
+    <div class="code">
+        <img src="image/clone.png" alt="">
+        <p>setelah di copy lakukan clone dari terminal</p>
+    </div>
+        <li>Buka Terminal / Command prompt</li>
+    <div class="terminal">
+        <img src="image/terminal.png" alt="">
+        <p>setelah code fork di copy buka folder di terminal kemudain ketik "git clone" dan paste link kemudian Enter. stelah itu buka file di terminal VSC "pastikan di sebelah port pilih "git bash"</p>
+    </div>
+        <li>Ketik "git remote" Enter</li>
+        <p>Tujuan untuk memastikan remote sudah terhubung. akan muncul "git remote origin" untuk memastikan Origin adalah milik kita buat perintah " git remote show origin" Enter</p>
+        <img src="image/push.png" alt="" class="push">
+        <p>check link url pastikan menunjukkan origin adalah milik kita sendiri. jika salah lakukan clon ulang dari awal. selanjutnya lakukan koneksi ke upstream repo company ketik "git remote add upstream paste link code company</p>
+    <div class="upstream">
+        <img src="" alt="">
+        <p>untuk memastikan sudah betul ketik "git remote" akan muncul 2 remote "origin dan upstream" untuk memastikan upstream milik company ketik "git remote show upstream" Enter. akan di tampilkan url link company</p>
+        <img src="" alt="">
+        <p>Selanjutnya sebelum edit project harus buat cabang baru atau new branch ketik " git checkout -b nama branch" stelah itu auto switch ke branch baru. untuk memastikan ketik "git branch" Enter. jika ada tnda * menunjukkan branch yang aktif sekarang.
+        berikutnya edit (data kita ,nama,nama git,dll)  kita di project
+        </p>
+        <li>Terus ketik "git add"Enter. di terminal VSC</li>
+        <p>terus ketik "git commit -m "tambah baris baru" Enter".</p>
+    </div>
+    </ol>
+    
+</body>
+</html>
